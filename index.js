@@ -42,7 +42,7 @@ function Create() {
     criteria()
     .then((answers)=>{
         let backgroundShape;
-        switch (answers.shape){
+        switch (answers.Shape){
             //Triangle Case
             case "Triangle":
                 backgroundShape =new Triangle();
@@ -56,8 +56,8 @@ function Create() {
                 backgroundShape =new Square();
             break;
         }
-        //test
         const svg= new SVG();
+        console.log(backgroundShape);
         backgroundShape.setColor(answers.BGcolor);
         svg.setText(answers.text,answers.TxtColor);
         svg.setShape(backgroundShape);
