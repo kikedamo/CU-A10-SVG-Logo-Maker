@@ -1,6 +1,6 @@
-const inquirer=require("inquirer");
-const jest =  require ('jest');
-const fs=require("fs/promises");
+const inquirer = require("inquirer");
+const jest = require ('jest');
+const fs = require("fs/promises");
 const SVG = require("./lib/svg");
 
 const Triangle=require("./lib/shapes").Triangle;
@@ -64,3 +64,4 @@ function Create() {
         }
     )
 }
+Create()
