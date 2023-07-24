@@ -56,6 +56,7 @@ function Create() {
                 backgroundShape =new Square();
             break;
         }
+        //test
         const svg= new SVG();
         backgroundShape.setColor(answers.BGcolor);
         svg.setText(answers.text,answers.TxtColor);
