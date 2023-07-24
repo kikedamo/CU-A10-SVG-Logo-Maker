@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+const inquirer=require("inquirer");
 const jest =  require ('jest');
 const fs=require("fs/promises");
 const SVG = require("./lib/svg");
